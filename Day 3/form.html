@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>Registration form</header>
+    <main>
+        <form action="./welcome.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="ema">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="male" id="male">Male
+            <input type="radio" name="female" id="female">Female
+            <br><br>
+            <label for="language">Language:</label>
+            <select name="language" id="language">
+                
+                <option value="c++">C++</option>
+                <option value="javascript">Javascript</option>
+                <option value="typescript">typescript</option>
+                <option value="select-lang" selected>Select language</option>
+
+            </select>
+            <br><br>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
