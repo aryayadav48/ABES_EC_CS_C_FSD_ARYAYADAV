@@ -1,0 +1,9 @@
+console.log(a);
+function fun(){
+    console.log(a);
+    var a=40;
+    console.log(a);
+}
+fun();
+a=90;
+console.log(a);
